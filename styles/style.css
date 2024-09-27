@@ -31,10 +31,10 @@ a {
 }
 
 .header_logo {
-  display: block; 
+  display: block;
+  justify-self: end;
   height: 104px;
   width: 133px;
-  justify-self: end;
   border-bottom: 0;
 }
 
@@ -165,9 +165,9 @@ a {
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
-  position: relative; 
   background-size: cover;
   background-position: center;
   z-index: -2;
@@ -285,7 +285,7 @@ a {
   text-align: center;
 }
 
-.footer__menu-list{
+.footer__menu-list {
   list-style: none;
 }
 
@@ -297,13 +297,13 @@ a {
   display: flex;
   justify-content: space-between;
   justify-self: end;
-  height: 48px; 
+  height: 48px;
   width: 240px;
   list-style: none;
 }
 
 .footer__social-link {
-  display: block; 
+  display: block;
   width: 48px;
   height: 48px;
   border-bottom: 0;
